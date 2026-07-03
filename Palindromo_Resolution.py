@@ -3,7 +3,7 @@ class Solution(object):
         number = str(x) # Transformando o número int em uma string pra poder conseguir usar os colchetes
         if number == number[::-1]: # Se o número for igual ao número de traz para frente então é um palíndromo
             return True
-        else:
+        else: # Se a string não for uma palíndromo então é falso
             return False
 
 sol = Solution()
