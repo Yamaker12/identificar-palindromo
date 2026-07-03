@@ -1,3 +1,4 @@
+# Questão: Dado um número inteiro x, retorne true se x for um palíndromo e false de outra forma .
 class Solution(object):
     def isPalindrome(self, x):
         number = str(x) # Transformando o número int em uma string pra poder conseguir usar os colchetes
