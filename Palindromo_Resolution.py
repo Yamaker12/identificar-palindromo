@@ -1,4 +1,8 @@
-# Questão: Dado um número inteiro x, retorne true se x for um palíndromo e false de outra forma .
+#Date: 02/07/2026
+#Difficulty: Eazy
+#Problem link: https://leetcode.com/problems/palindrome-number/description/
+#Duration: 2 hours💀💀
+
 class Solution(object):
     def isPalindrome(self, x):
         number = str(x) # Transformando o número int em uma string pra poder conseguir usar os colchetes
